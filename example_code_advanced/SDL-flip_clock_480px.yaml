@@ -90,7 +90,7 @@ packages:
       uid: button_1
       row: 0
       column: 0
-      text: Infor screen
+      text: Kitchen Light
       icon: $mdi_lightbulb
       entity_id: "switch.athom_smart_plug_v3_50ebc0_switch"
 
