@@ -187,6 +187,8 @@ script:
 
 
 # Weather icons - included automatically
+# https://github.com/manifestinteractive/weather-underground-icons
+
 image:
   rgb565:
     alpha_channel:

@@ -27,6 +27,8 @@
 #         noaa_unit_system: "english"   # or "metric"
 # ═══════════════════════════════════════════════════════════════════════════════
 
+http_request:
+
 # Defaults for optional vars (used when not provided by the caller)
 defaults:
   noaa_unit_system: english
