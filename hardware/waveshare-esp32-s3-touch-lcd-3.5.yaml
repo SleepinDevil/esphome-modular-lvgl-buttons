@@ -40,9 +40,6 @@ psram:
 preferences:
   flash_write_interval: 5min
 
-logger:
-  level: DEBUG
-
 # Backlight control (LCD_BL)
 output:
   - platform: ledc
@@ -63,11 +60,10 @@ spi:
     clk_pin: GPIO5        # LCD_SCLK
     mosi_pin: GPIO1       # LCD_SDI/MOSI
 
-# Display configuration for ST7796 (via ili9xxx driver)
+# Display configuration for ST7796 (via mipi_spi driver)
 display:
-  - platform: ili9xxx
+  - platform: mipi_spi
     id: my_display
-    spi_id: lcd_spi
     model: ST7796
     dimensions:
       width: 320

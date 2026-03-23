@@ -24,6 +24,7 @@ esp32:
     type: esp-idf
     advanced:
       execute_from_psram: true
+      enable_idf_experimental_features: true
 
 esp32_hosted:
   variant: ESP32C6

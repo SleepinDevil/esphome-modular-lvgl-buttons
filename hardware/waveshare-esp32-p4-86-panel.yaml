@@ -22,6 +22,7 @@ esp32:
     type: esp-idf
     advanced:
       execute_from_psram: true
+      enable_idf_experimental_features: true
 
 psram:
   mode: hex
