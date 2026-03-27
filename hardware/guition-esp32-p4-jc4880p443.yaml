@@ -2,6 +2,7 @@
 # Hardware configuration file
 # Guition ESP32-P4-jc4880p443 4.3" 480X800
 #
+# https://github.com/wegi1/ESP32P4-JC4880P443C-I-W/blob/main/5-Schematic/JC4880P443_V1.0.pdf
 
 substitutions:
   # Screen Size (Configured as Lanscape)
@@ -96,6 +97,7 @@ switch:
 # -------------------------------------------
 # i2c bus
 # -------------------------------------------
+# Qwiic connector is also on this bus
 i2c:
   - id: bus_a
     sda: GPIO7
